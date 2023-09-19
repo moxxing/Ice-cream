@@ -137,6 +137,14 @@ button {
   margin-left: auto;
 }
 
+.icon-close {
+  display: none;
+}
+
 .wrapper {
   background-color: #84A178;
+}
+
+.wrapper-menu {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
