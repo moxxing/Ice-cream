@@ -124,4 +124,19 @@ summary {
   display: list-item;
 }
 
-/*# sourceMappingURL=main.css.map */
+
+button {
+  padding: 0;
+  border: 0;
+}
+
+.btn-menu {
+  background-color: inherit;
+}
+.btn-menu--margin {
+  margin-left: auto;
+}
+
+.wrapper {
+  background-color: #84A178;
+}/*# sourceMappingURL=main.css.map */

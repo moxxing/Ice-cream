@@ -7,22 +7,31 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <div class="wrapper">
       <div>
-        <nav>
-          <a href="">
-            <img src="" alt="" />
-          </a>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">How it’s made?</a></li>
-            <li><a href="">Our products</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-          <button type="button">Buy now</button>
-        </nav>
+        <header>
+          <nav>
+            <a href="">
+              <svg>
+                <use href="./images/Sprites/symbols.svg#Logo"></use>
+              </svg>
+            </a>
+            <ul class="nav-list">
+              <li><a href="">Home</a></li>
+              <li><a href="">How it’s made?</a></li>
+              <li><a href="">Our products</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+            <button type="button">Buy now</button>
+            <button class="btn-menu btn-menu--margin" type="button">
+              <svg>
+                <use href="./images/Sprites/symbols.svg#burger"></use>
+              </svg>
+            </button>
+          </nav>
+        </header>
       </div>
-    </header>
+    </div>
     <main>
       <section>
         <h1>ice cream made with passion</h1>
@@ -356,17 +365,28 @@
     </main>
     <footer>
       <h3>homemade ice cream made with passion</h3>
-      <ul>
-        <li><svg>
-          <use href="./images/Sprites/symbols.svg#github"></use>
-        </svg></li>
-        <li><svg>
-          <use href="./images/Sprites/symbols.svg#telegram"></use>
-        </svg></li>
-        <li><svg>
-          <use href="./images/Sprites/symbols.svg#facebook"></use>
-        </svg></li>
-      </ul>
+      <address>
+        <ul>
+          <li>
+            <svg>
+              <use href="./images/Sprites/symbols.svg#github"></use>
+            </svg>
+          </li>
+          <li>
+            <svg>
+              <use href="./images/Sprites/symbols.svg#telegram"></use>
+            </svg>
+          </li>
+          <li>
+            <svg>
+              <use href="./images/Sprites/symbols.svg#facebook"></use>
+            </svg>
+          </li>
+        </ul>
+        <p>Feel free to contact</p>
+        <a href="">+61 (0) 383 766 284</a>
+      </address>
+      <p>© 2022 - IceCream. All Rights Reserved.</p>
     </footer>
   </body>
 </html>
