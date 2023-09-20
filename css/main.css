@@ -147,4 +147,10 @@ button {
 
 .wrapper-menu {
   display: none;
+}
+
+.header-wraper--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

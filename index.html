@@ -9,36 +9,43 @@
   <body>
     <div class="wrapper">
       <header>
-        <div>
-          <nav>
-            <a href="">
-              <svg>
-                <use href="./images/Sprites/symbols.svg#Logo"></use>
-              </svg>
-            </a>
-            <div class="wrapper-menu">
-              <ul class="nav-list">
-                <li><a href="">Home</a></li>
-                <li><a href="">How it’s made?</a></li>
-                <li><a href="">Our products</a></li>
-                <li><a href="">Contact</a></li>
-              </ul>
-              <button type="button">Buy now</button>
-            </div>
-          </nav>
+        <div class="header-wraper--flex">
+          <div>
+            <nav>
+              <a href="./index.html">
+                <svg>
+                  <use href="./images/Sprites/symbols.svg#Logo"></use>
+                </svg>
+              </a>
+              <div class="wrapper-menu" id="menu">
+                <ul class="nav-list">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">How it’s made?</a></li>
+                  <li><a href="">Our products</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+                <button type="button">Buy now</button>
+              </div>
+            </nav>
+          </div>
+          <button
+            class="btn-menu btn-menu--margin"
+            aria-expanded="false"
+            aria-controls="menu"
+            type="button"
+          >
+            <svg>
+              <use
+                class="icon-burger"
+                href="./images/Sprites/symbols.svg#burger"
+              ></use>
+              <use
+                class="icon-close"
+                href="./images/Sprites/symbols.svg#close"
+              ></use>
+            </svg>
+          </button>
         </div>
-        <button class="btn-menu btn-menu--margin" type="button">
-          <svg>
-            <use
-              class="icon-burger"
-              href="./images/Sprites/symbols.svg#burger"
-            ></use>
-            <use
-              class="icon-close"
-              href="./images/Sprites/symbols.svg#close"
-            ></use>
-          </svg>
-        </button>
       </header>
     </div>
     <main>
@@ -397,5 +404,6 @@
       </address>
       <p>© 2022 - IceCream. All Rights Reserved.</p>
     </footer>
+    <script src=""></script>
   </body>
 </html>
