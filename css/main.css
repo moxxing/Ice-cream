@@ -130,6 +130,10 @@ button {
   border: 0;
 }
 
+.wrapper {
+  background-color: #84A178;
+}
+
 .btn-menu {
   background-color: inherit;
 }
@@ -139,10 +143,6 @@ button {
 
 .icon-close {
   display: none;
-}
-
-.wrapper {
-  background-color: #84A178;
 }
 
 .wrapper-menu {
